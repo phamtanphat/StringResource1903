@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ptp.phamtanphat.stringresource1903.MainActivity">
+
+   <TextView
+       android:textColor="#f20"
+       android:textAllCaps="true"
+       android:textSize="35sp"
+       android:text="Dang nhap he thong"
+       android:id="@+id/textviewtitle"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+    <EditText
+        android:hint="Nhap tai khoan"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/textviewtitle"
+        android:id="@+id/edittextusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Nhap mat khau"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/edittextusername"
+        android:id="@+id/edittextpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/edittextpassword"
+        android:text="Dang nhap"
+        android:id="@+id/buttondangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
